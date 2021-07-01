@@ -1,16 +1,15 @@
-# blog_app
+# Blog App
 
 A simple blog application
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a simple blog app made with Flutter and Json-Server.
 
-A few resources to get you started if this is your first Flutter project:
+1. Create file named `api_host.dart` in folder `lib/api/` with following content:
+```
+      final host = 'hostname';
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replace hostname with hostname of your Json-Server.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Run `flutter pub get` and then run `flutter run`.
